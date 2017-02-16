@@ -1,0 +1,121 @@
+<HTML><HEAD>
+
+<TITLE>Javascript Clock</TITLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Hide
+
+// Create varibale "currentdate" and assign it the value of the date information grabbed from the client's machine
+currentdate = new Date();
+// Create the variable "dateform2" and leave it empty
+var dateform2;
+// Create a variable named "speed" and assign it the value 1000
+speed=1000;
+// Create a variable called "tid" and assign it the value 0
+tid = 0;
+
+// This function writes the value of the current date variable into
+function displayDate() {
+
+document.dateform1.textbox1.value = currentdate;
+
+}
+
+
+/* this function is set up to loop infinately, updating the value of the form textbox with the new date
+once every 1000 milliseconds */
+function dodate()
+
+{
+
+  y.date.value=new Date();
+
+  tid=window.setTimeout("dodate()",speed);
+
+}
+
+
+/* The function named "Clock" passes the name of the form to the function named "start". The "start" function assigns the value of the form name to a variable named "x" */
+
+function start(x) {
+// Assign the value of "x" to a variable named "y"
+  y=x
+// The value of the "tid" variable to the method "window.setTimeout"
+// the method "setTimeout" tells the program to execute the function "dodate" after a delay of 1000 milliseconds
+// 1000 is the value of the the variable "speed". 1000 milliseconds equals one second
+
+  tid=window.setTimeout("dodate()",speed);
+
+}
+
+
+// this function creates the form text box to display the real time clock
+function Clock()
+
+{
+// Note use of escape characters
+document.write('<FORM name=\"dateform2\"><b>JavaScript Clock:</b> <input name=date size=40 value=\"JavaScript Clock\"></FORM>');
+
+// Call the function named "start" and pass it the name of the form object
+start(document.dateform2);
+
+}
+// End hiding -->
+</SCRIPT>
+<link rel="stylesheet" href="http://members.cox.net/bosco.bina1/stylesheet/bosco.css" type="text/css">
+</HEAD>
+
+<BODY BACKGROUND="BAKGRD2.GIF" onLoad="displayDate()">
+
+<!-- <UL><FONT size="+1">
+<LI> Marc Goldstein
+<LI> Student ID #: 636699
+<LI> CIS 98S/T JavaScript Programming
+<LI> Program #2: JavaScript Current Date
+</font></UL> -->
+
+
+<HR size="3" width="75%" noshade><BR>
+
+<BLOCKQUOTE>
+
+<h3>This writes the value of the currentdate variable into the page:</h3>
+
+<P><SCRIPT LANGUAGE="JavaScript">
+<!-- Hide
+document.writeln("<b>Today's Date: </b> "+currentdate)
+// End -->
+</SCRIPT>
+
+
+
+<P><h3>This writes the value of the currentdate variable into the form text box:</h3>
+
+<form name="dateform1">
+
+<STRONG>Today's Date:</STRONG> &nbsp; <input type="text" name="textbox1" size=40>
+
+</form>
+
+
+
+<P><h3>This one is a &quot;real time&quot; clock:</h3>
+
+<script language="javascript">
+<!-- Hide
+// This script in the body of the page is used to call the function "Clock" in the header
+Clock();
+
+// end -->
+</script>
+
+</BLOCKQUOTE>
+
+<BR><HR size="3" width="75%" noshade><BR>
+
+<CENTER><font size="+2">
+
+<a href="http://members.cox.net/bosco.bina1/" target="_top">Home</A> | <A HREF="mailto:bosco.bina1@cox.net">E-Mail</A>
+</font></CENTER>
+</BODY></HTML>
+

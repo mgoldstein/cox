@@ -1,0 +1,262 @@
+<HTML>
+<HEAD>
+<TITLE>JavaScript Curriculum</TITLE>
+<META NAME="Author" CONTENT="Marc Goldstein">
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:"MS Sans Serif";
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+</HEAD>
+<BODY bgcolor="white">
+<div class=Section1>
+
+<p class=MsoTitle><span style='font-size:16.0pt;mso-bidi-font-size:10.0pt'>JavaScript
+101<o:p></o:p></span></p>
+
+<p class=MsoTitle align=left style='text-align:left'><span style='font-size:
+10.0pt;font-weight:normal'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoTitle align=left style='text-align:left'><span style='font-size:
+10.0pt;font-weight:normal'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoTitle align=left style='text-align:left'><span style='font-size:
+10.0pt;font-weight:normal'>What’s the difference between Java and Javascript?<o:p></o:p></span></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Client-side:
+the user’s browser interprets Javascript. Different browsers read Javascript
+differently. Most personal web page hosts (Earthlink, Geocities) will not allow
+you to use CGI. But Javascript is built into your web browser, so you can use
+JS on personal web pages.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>For
+security reasons, JS cannot open or manipulate files on either the client’s
+machine or the host server. I’ve read that JS can be used for server-side
+functions, but I’ve never seen it in the real world. There are too many other
+server-side languages that are superior (PERL, PHP, ASP, JSP, etc)</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Javascript
+(developed by Netscape) versus Jscript (developed by Microsoft)</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>DHTML:
+Interaction between HTML, CSS, and Javascript.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Concepts &amp; Vocab:
+</b>Objects (properties &amp; methods), functions (operators), variables
+(arrays), events. </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>The
+browser is a stage. The actors and the sets are objects. The lines spoken and
+actions performed are functions and methods. The actors’ cues are events.</p>
+
+<p class=MsoNormal style='text-indent:.5in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Variables: Store
+information<o:p></o:p></b></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Should
+start with a letter</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Must be
+one word</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Avoid
+symbols (underscore ok)</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Beware
+reserved words</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Case-sensitive</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Arrays</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Functions: Perform a
+task and return a value. Allows greater control over when code is executed.<o:p></o:p></b></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Beware
+reserved words</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Case-sensitive<span
+style='mso-tab-count:1'>                </span></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Passing
+variables into functions. </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:.5in'>In calls to
+functions, the parentheses can be left empty or used to pass a value to the
+function.</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:.5in'>In the function
+definition, the parentheses are used to assign variable names to the values
+passed from the calls.</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>If
+statements: </p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span><span
+style='mso-tab-count:1'>                </span><b style='mso-bidi-font-weight:
+normal'>Operators</b> (&gt;, &lt;, ==, !=, &gt;=, &lt;=, &amp;&amp;, ||, ++,
+--, *, /)</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Objects:<span
+style="mso-spacerun: yes">  </span>Parts of the browser.<o:p></o:p></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='mso-tab-count:1'>                </span></b>Objects are parts of the
+browser that you can access and modify. Objects may have sub-elements, called properties.
+Objects are manipulated through methods and functions.</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>window </p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:.5in'>Properties: self,
+status, parent</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:.5in'>Methods: alert,
+prompt, confirm, close, open </p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>date
+(no properties, many methods)</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>document
+</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:.5in'>Properties:
+location, title, forms, cookie, bgcolor)</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span><span
+style='mso-tab-count:1'>                </span>Methods: write, open, close</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Events: Call out to
+functions and methods.<o:p></o:p></b></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>OnLoad,
+onClick, onMouseOver, onMouseOut</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>&lt;SCRIPT&gt; Tags<o:p></o:p></b></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>&lt;!--<span
+style="mso-spacerun: yes">  </span>Hiding Javascript with comment tags // --
+&gt;</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Placement
+in Head vs. Body</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span><span
+style='mso-tab-count:1'>                </span>Hello World #1</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span><span
+style='mso-tab-count:1'>                </span>Hello World #2</p>
+
+<p class=MsoNormal>Using Javascript source files SRC=</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Semicolon
+and comma.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>// Comment tags </p>
+
+<p class=MsoNormal>/* Multi-line comments */</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Using
+comment tags to hide script from older browsers</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Javascript we use at
+www.latimes.com:<o:p></o:p></b></p>
+
+<p class=MsoNormal>&lt;a href=&quot;#&quot;
+onClick=&quot;window.open('/calendarlive/movies/oscar/galleries/ryder.htm','arrivals','width=625,height=600,scrollbars=no,toolbar=no,location=no,directories=no,menubar=no,alwaysRaised')&quot;&gt;</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Troubleshooting
+JavaScript:<o:p></o:p></b></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Syntax
+errors: quotes, brackets, semicolons.</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Calls
+to functions &amp; variables: Case-sensitive, beware reserved words.</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>Browser
+compatibility.<span style='font-size:8.5pt;mso-bidi-font-size:10.0pt;
+font-family:"MS Sans Serif";layout-grid-mode:line'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+</div>
+
+
+<CENTER><font size="+2">
+<a href="http://members.cox.net/bosco.bina1/" target="_top">Home</A>  | <A HREF="MAILTO:bosco.bina1@cox.net">E-Mail</A>
+</font></CENTER>
+
+</BODY></HTML>

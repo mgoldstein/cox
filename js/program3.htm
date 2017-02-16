@@ -1,0 +1,183 @@
+<HTML><HEAD><TITLE>Verifying Form Input with JavaScript</TITLE>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META NAME="Author" CONTENT="Marc Goldstein">
+
+<BODY BGCOLOR="#FFFFFF" onLoad="loadDoc()">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Hide
+
+Ret = false;
+
+function testBox1(form) {
+	Ctrl = form.inputbox1;
+	if (Ctrl.value == "") {
+		validatePrompt (Ctrl, "Please enter your First Name")
+		return (false);
+		}
+	else
+		return (true);
+		}
+
+function testBox2(form) {
+	Ctrl = form.inputbox2;
+	if (Ctrl.value == "") {
+		validatePrompt (Ctrl, "Please enter your Last Name")
+		return (false);
+		}
+	else
+		return (true);
+		}
+
+function testBox3(form) {
+	Ctrl = form.inputbox3;
+	if (Ctrl.value == "") {
+		validatePrompt (Ctrl, "Please enter your Street Address")
+		return (false);
+		}
+	else
+		return (true);
+		}
+
+function testBox4(form) {
+	Ctrl = form.inputbox4;
+	if (Ctrl.value == "" || Ctrl.value.indexOf ('@', 0) == -1) {
+		validatePrompt (Ctrl, "Enter a valid E-Mail Address")
+		return (false);	}
+	else
+		return (true);
+}
+
+function testBox5(form) {
+	Ctrl = form.inputbox5;
+	if (Ctrl.value != "javascript") {
+		validatePrompt (Ctrl, "Password Incorrect")
+		return (false);	}
+	else
+		return (true);
+}
+
+function testRadio(form) {
+	Ctrl = form.group1.focus;
+	if ( document.test.group1[0].checked == true ||
+	     document.test.group1[1].checked ) {
+	     return (true); }
+	  else
+	     { alert("Please Select Renter or Owner") ;
+	  return (false);	}
+	}
+
+function testCheck(form) {
+	Ctrl = form.chkCar;
+	if ( document.test.chkCar.checked == true ||
+	     document.test.chkBoat.checked == true ||
+             document.test.chkComputer.checked == true ) {
+	     return (true); }
+	  else
+	     { validatePrompt (Ctrl, "C'mon, you must own something!");
+	  return (false);	}
+	}
+
+function runSubmit (form, button)  {
+	if (!testBox1(form)) return;
+	if (!testBox2(form)) return;
+	if (!testBox3(form)) return;
+	if (!testBox4(form)) return;
+	if (!testBox5(form)) return;
+	if (!testRadio(form)) return;
+	if (!testCheck(form)) return;
+	// alert ("All entries verified OK!");
+	// location.href="submit.htm";
+	// document.regform.submit();
+
+}
+
+function validatePrompt (Ctrl, PromptStr) {
+	alert (PromptStr)
+	Ctrl.focus();
+	return;
+}
+
+function loadDoc() {
+	document.test.inputbox1.focus ();
+	return;
+}
+
+// End -->
+</SCRIPT>
+<link rel="stylesheet" href="http://members.cox.net/bosco.bina1/stylesheet/bosco.css" type="text/css">
+</HEAD>
+<BODY bgcolor="red">
+
+<H2 align="center">JavaScript Form Verification</H2>
+
+<HR size=5>
+
+<BLOCKQUOTE>
+
+<FORM NAME="test" ACTION="submit.htm" METHOD="POST">
+
+<font size="+1">Enter Your First Name:</font> <BR>
+
+<INPUT TYPE="text" NAME="inputbox1" size="40">
+
+
+
+<P><font size="+1">Enter Your Last Name:</font> <BR>
+
+<INPUT TYPE="text" NAME="inputbox2" size="40">
+
+
+
+<P><font size="+1">Enter Your Address:</font> <BR>
+
+<INPUT TYPE="text" NAME="inputbox3" size="60">
+
+
+
+<P><font size="+1">Enter Your E-Mail Address: </font><BR>
+
+<INPUT TYPE="text" NAME="inputbox4" size="40">
+
+
+
+<P><font size="+1">Enter Password (the password is "javascript"): </font><BR>
+
+<INPUT TYPE="password" NAME="inputbox5" size="40">
+
+
+
+<P><font size="+1">Renter or Owner?</font><BR>
+
+<input type="radio" name="group1" value="Renter"><font size="+1">Renter</font><BR>
+
+<input type="radio" name="group1" value="Owner"><font size="+1">Owner</font><BR>
+
+
+
+<A NAME="checkbox">
+
+<P><font size="+1">Select at least one of the following:</font><BR>
+
+<INPUT type="checkbox" name="chkCar"><font size="+1">Own Car</font><BR>
+
+<INPUT type="checkbox" name="chkBoat"><font size="+1">Own Boat</font><BR>
+
+<INPUT type="checkbox" name="chkComputer"><font size="+1">Own Computer</font><BR>
+
+<BR><font size="+1">Comments:</font> <BR>
+
+<textarea name="textarea1" rows=4 cols=50>Any Comments?</textarea>
+
+<P><INPUT TYPE="button" NAME="Submit" VALUE="Submit" onClick="runSubmit(this.form, this)"> <INPUT TYPE=RESET VALUE="Reset">
+
+</FORM></FONT></BLOCKQUOTE>
+
+<BR><hr size=5><BR>
+
+<CENTER><font size="+1"><A HREF="http://members.cox.net/bosco.bina1/" target="_top">Home</A> | <A HREF="mailto:bosco.bina1@cox.net">E-Mail</A></font></CENTER>
+
+<BR><HR size=5><BR>
+
+</body></HTML>
+

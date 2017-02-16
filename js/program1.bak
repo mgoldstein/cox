@@ -1,0 +1,143 @@
+<HTML>
+
+<HEAD>
+
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+
+<TITLE>Java Color Test</TITLE>
+
+
+
+<script language="javascript">
+var color1 = "Red";
+
+var color2 = "Green";
+
+var color3 = "Blue";
+
+var color4 = "Purple";
+
+var color5 = "Orange";
+
+var color6 = "Yellow";
+
+var currentcolor = color1;
+
+
+
+function changeColor()
+
+{
+
+	if (  currentcolor == "Red" )
+
+		currentcolor = "Green";
+
+	else
+
+		if (  currentcolor == "Green")
+
+			currentcolor = "Blue";
+
+	else
+
+		if (  currentcolor == "Blue")
+
+			currentcolor = "Purple";
+
+	else
+
+		if (  currentcolor == "Purple")
+
+			currentcolor = "Orange";
+
+	else
+
+		if (  currentcolor == "Orange")
+
+			currentcolor = "Yellow";
+
+	else
+
+		if (  currentcolor == "Yellow")
+
+			currentcolor = "Red";
+
+	document.form1.displaycolor.value = currentcolor;
+
+	document.bgColor = currentcolor;
+
+}
+
+
+
+function displayColor()
+
+
+
+{
+
+	document.form1.displaycolor.value = currentcolor;
+
+	document.bgColor = currentcolor;
+
+}
+
+</script>
+
+
+
+</HEAD>
+
+<BODY onLoad="displayColor()">
+
+
+
+<h2 align="center">Sample Page One</h2>
+
+<P>
+
+<BLOCKQUOTE>
+
+This is a sample javascript program that will display information when the following button is clicked
+
+<P>
+
+
+
+<form name="form1">
+
+<STRONG>Click the button to change the background:</STRONG> &nbsp;
+
+<input type="button" name="cngbutton" value="Change Color" onClick="changeColor()">
+
+<p>
+
+<CENTER>
+
+<STRONG>Current Color:</STRONG> &nbsp; <input type="text" name="displaycolor" size=10>
+
+</CENTER>
+
+<BR>
+
+</form>
+
+<P>
+
+<script language="javascript">
+
+document.writeln("<hr><br>") ;
+
+document.writeln("<B>Current color is "+currentcolor+"</B><BR>") ;
+
+document.writeln("<br><hr><br>") ;
+
+</script>
+
+</BLOCKQUOTE>
+
+</BODY>
+
+</HTML>
+

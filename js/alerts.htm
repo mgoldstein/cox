@@ -1,0 +1,45 @@
+
+
+<HTML><HEAD>
+<TITLE>Alerts, Prompts, Confirms</TITLE>
+<SCRIPT language="Javascript">
+<!--
+
+function showAlert() {
+
+window.alert("           This is an alert!\n\n" +
+	     "Make sure you use \"plain text\" formatting\n" +
+	     "and escape characters, not <HTML>");
+
+}
+
+function showPrompt() {
+
+userInput = window.prompt("What is your name?\n", "");
+document.popForm.userName.value = "Welcome to JavaScript 101, " + userInput;
+}
+
+function showConfirm(message) {
+
+	if(window.confirm(message)) {
+	parent.location.href = "http://members.cox.net/bosco.bina1/lily/";
+	}
+}
+
+// -->
+</SCRIPT>
+<link rel="stylesheet" href="http://members.cox.net/bosco.bina1/stylesheet/bosco.css" type="text/css">
+</HEAD><BODY>
+<CENTER><FONT SIZE="+3">Javascript Alerts</FONT></CENTER>
+<FORM name="popForm">
+<INPUT TYPE="button" value="Alert" name="alertBut" onclick="showAlert()">
+
+<P>
+<INPUT TYPE="button" value="Confirm" name="confirmBut" onclick="showConfirm('This is a confirm.\n Do you want to go to Lily\'s page?')">
+<P>
+<INPUT TYPE="button" value="Prompt" name="promptBut" onclick="showPrompt()">
+<P>
+<INPUT TYPE="textbox" name="userName" value="" size="50">
+</FORM>
+
+</BODY></HTML>

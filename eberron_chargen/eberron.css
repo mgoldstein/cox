@@ -1,0 +1,9 @@
+body { background-color:#FFFFFF; margin:1em; }
+td, p, input, textarea, select, option, body, ul, li { font:normal 12px "Times New Roman", Times, serif; }
+th { font:bold 12px "Times New Roman", Times, serif; text-align:left; }
+dl, dt, dd { margin:0; font:normal 12px "Times New Roman", Times, serif; }
+dd { text-indent:1em; }
+h1 { font:bold xx-large "Times New Roman", Times, serif; }
+h2 { font:bold x-large "Times New Roman", Times, serif; }
+h3 { font:bold large "Times New Roman", Times, serif; }
+caption { font:bold large "Times New Roman", Times, serif; text-align:left; }

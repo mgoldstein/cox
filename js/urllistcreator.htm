@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>URL List Creator</title>
+
+   <script language="javascript"> 
+<!--
+   var slugArray
+   var sectionArray=new Array(); 
+   var slugNameArray=new Array();
+   var sectionCodeArray=new Array();
+   var sectionCode; 
+   var sectionURL; 
+   var date; 
+   var LATimesURL = "http://www.latimes.com"; 
+   var slugName; 
+   var URL; 
+   var space = " ";
+   var slugList;
+
+  function grabDate() { 
+    date = window.document.gettingSlug.date.value;
+	 
+   } 
+
+   //gets the slug 
+  
+ function getSlug() { 
+    slugList = window.document.gettingSlug.slug.value; 
+   } 
+
+ function checkDate() { //checks format of date
+    if (date == "" || date.length < 6) {
+	  alert ("Enter the pub date for the article in the proper format");
+	  return false;
+	}
+	else return true;
+ }
+
+   //separates slug into section code and slug 
+ 
+ function separateValues() { 
+    if  (slugList == "") { 
+       alert("Enter a list of slugs"); 
+    } 
+    else { 
+		
+
+
+				
+		for (var i=0; i < slugList.length; i++) {
+
+		    var mult = 0; //number to add to i to determine how many returns to skip
+		  	if (slugList.charAt(i) == "\r") {
+					var counter = i;
+					while (slugList.charAt(counter) == "\r") { 
+						mult += 2;
+						counter += 2;
+					}
+					slugList = slugList.substring(0, i)+space+slugList.substring((i+mult), slugList.length);
+				}
+
+			
+		}
+		slugArray = slugList.split(space); 
+			var slugCount = 0;
+			var sectionCount = 0;
+			for (var i=0; i < slugArray.length; i++) {				
+				if (i % 2 == 0) {
+					
+					sectionCodeArray[sectionCount++] = slugArray[i].toUpperCase();  //puts the slugs in 1 array 
+				}
+				else {
+					
+					slugNameArray[slugCount++] = slugArray[i].toLowerCase(); // puts all section codes in 1 array
+				}
+			}
+	}	 
+ } 
+
+   //turns section code into part of url 
+   function matchSectionCode() { 
+    for (var i=0; i < sectionCodeArray.length; i++) {
+    sectionCode = sectionCodeArray[i];	
+    switch (sectionCode) { 
+     case ("NA"): 
+     sectionURL="/news/nationworld/nation/" 
+     break; 
+     case ("FG"): 
+     sectionURL="/news/nationworld/world/" 
+     break; 
+     case ("ME"): 
+     sectionURL="/news/local/"
+     break;        
+     case ("FI"): 
+     sectionURL="/business/"
+     break;
+     case ("TT"):
+     sectionURL="/technology/"
+     break;
+     case ("SP"): 
+     sectionURL="/sports/"
+     break;               
+	 case ("undefined"):
+	 break;
+	 return false;
+	 default : 
+	 if (typeof sectionCode == "undefined") {
+	 	break;
+	 	return false;
+	 }
+	 else if (sectionCode.length == 2) {
+	 	sectionURL = "/"
+		break;
+	 }
+	 else {
+	 	alert("Not a valid section code"); 
+	 	break;
+	 }
+	}
+    //add rest of sections 
+	
+    
+    sectionArray[i] = sectionURL;
+    }	 
+   } 
+
+
+     function createURLList() { 
+   	   getSlug(); 
+ 	   grabDate(); 
+       if (checkDate()) {
+ 	   	separateValues();
+		 
+ 	   	matchSectionCode();
+
+	   	//section URLs are in sectionArray, slug names are in slugNameArray
+	   	for (var i=0; i < slugNameArray.length; i++) {
+	   	
+				document.write(sectionCodeArray[i]+" "+slugNameArray[i]+"<br>"+LATimesURL+sectionArray[i]+"la-"+date+slugNameArray[i]+".story<p><br>");	   
+	  	 }
+	   }
+
+}
+
+
+	  /*By Eric Benjamin Hanson
+	  Northwestern University Medill School of Journalism
+	  latimes.com intern, summer & fall 2001
+	  */  
+	  -->
+      </script> 
+
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="400" border="0" cellpadding="4" cellspacing="4">
+  <form name="gettingSlug" onSubmit="createArrays(); return false;">
+    <tr> 
+      <td width="443" bgcolor="#FFFFFF"> 
+        <p><font face="Garamond, Times New Roman, serif" size="6">URL List Creator</font> 
+      </td>
+      <td width="47" rowspan="2">&nbsp; </td>
+    </tr>
+    <tr> 
+      <td width="443" bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="443" bgcolor="#CCCCCC">Enter the date the stories are to be published 
+        using the format MMDDYY (i.e. July 21, 2001 is 072101) </td>
+      <td width="47">&nbsp; </td>
+    </tr>
+    <tr> 
+      <td width="443" bgcolor="#FFFFFF"> 
+        <input type="text" name="date" size="6" maxlength="6">
+      </td>
+      <td width="47">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="443" bgcolor="#6699CC">Enter a list of slugs (i.e. NA Bush):</td>
+      <td width="47" rowspan="4">&nbsp; </td>
+    </tr>
+    <tr> 
+      <td width="443" bgcolor="#FFFFFF"> 
+        <textarea name="slug" cols="30" rows="20"></textarea>
+      </td>
+    </tr>
+    <tr> 
+      <td width="443" bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td rowspan="3" bgcolor="#FFFFFF"> 
+        <input type="button" value="Create URL List" onClick="createURLList();" name="button">
+      </td>
+    </tr>
+    <tr> 
+      <td width="47">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="47">&nbsp;</td>
+    </tr>
+  </form>
+</table>
+</body>
+</html>

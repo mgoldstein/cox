@@ -1,0 +1,93 @@
+/* global */
+body, form { margin: 0; }
+input, select, textarea, p, li { font: normal 11px Arial, sans-serif; }
+th  { font: bold 12px Arial, sans-serif; border-style: solid; border-color: #000; }
+td { font: normal 11px Arial, sans-serif; border-style: solid; border-color: #000; }
+caption { font: bold 12px Arial, Verdana, sans-serif; margin: .4em 0; }
+h1 { font: bold 32px Arial, Verdana, sans-serif; margin: .2em 0; }
+h2 { font: bold 24px Arial, Verdana, sans-serif; margin: .3em 0; }
+h3 { font: bold 18px Arial, Verdana, sans-serif; margin: .4em 0; }
+ul { list-style: disc outside; }
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active { text-decoration: none; }
+
+div.navmenu { margin-left: 10px; font: normal 12px Verdana, sans-serif; }
+div.navmainmenu { margin-left: 10px; font: bold 14px Verdana, sans-serif; font-color: red; }
+div.navmainmenu a:link, div.navmainmenu a:visited, div.navmainmenu a:hover, div.navmainmenu a:active { font-color: red; }
+
+div#pagetools { float: right; font: bold 14px Arial, sans-serif; }
+
+/* Navigation */
+.lilymenu12 { color: #FFFFCC; font: normal 12px Verdana, Arial, sans-serif; }
+.lilymenu12 a:link, .lilymenu12 a:visited, .lilymenu12 a:hover, .lilymenu12 a:active { color: #FFFFCC; }
+
+.lilymenu10 { color: #FFFFCC; font: normal 10px Verdana, Arial, sans-serif; }
+.lilymenu10 a:link, .lilymenu10 a:visited, .lilymenu10 a:hover, .lilymenu10 a:active { color: #FFFFCC; }
+
+/* content classes */
+.content { font-family: "Times New Roman"; }
+.content11 { font: normal 11px "Times New Roman"; }
+.content12 { font: normal 12px "Times New Roman"; }
+.content14 { font: normal 14px "Times New Roman"; }
+.contentMS14 { font: normal 14px Verdana, sans-serif; }
+.contentMS12 { font: normal 12px Verdana, sans-serif; }
+.contentMS11 { font: normal 11px Verdana, sans-serif; }
+.contentMS10 { font: normal 10px Verdana, sans-serif; }
+.contentWhite { font-family: "Times New Roman"; color: #FFF; }
+.contentWhite a:link, .contentWhite a:visited, .contentWhite a:hover, .contentWhite a:active { color: #FFF; font-weight: bold; }
+
+.contentWhite12 { font-size: 12px; font-family: "Times New Roman"; color: #FFF; }
+.contentWhite12 a:link, .contentWhite12 a:visited, .contentWhite12 a:hover, .contentWhite12 a:active  { color: #FFF; font-weight: bold; }
+
+.contentWhite11 { font-size: 11px; font-family: "Times New Roman"; color: #FFF; }
+.contentWhite11 a:link, .contentWhite11 a:visited, .contentWhite11 a:hover, .contentWhite11 a:active  { color: #FFF; font-weight: bold; }
+
+.contentWhiteMS14 { font-size: 14px; font-family: Verdana, sans-serif; color: #FFF; }
+.contentWhiteMS14 a:link, .contentWhiteMS14 a:visited, .contentWhiteMS14 a:hover, .contentWhiteMS14 a:active  { color: #FFF; font-weight: bold; }
+
+.contentWhiteMS12 { font-size: 12px; font-family: Verdana, sans-serif; color: #FFF; }
+.contentWhiteMS12 a:link, .contentWhiteMS12 a:visited, .contentWhiteMS12 a:hover, .contentWhiteMS12 a:active  { color: #FFF; font-weight: bold; }
+
+.contentWhiteMS11 { font-size: 11px; font-family: Verdana, sans-serif; color: #FFF; }
+.contentWhiteMS11 a:link, .contentWhiteMS11 a:visited, .contentWhiteMS11 a:hover, .contentWhiteMS11 a:active  { color: #FFF; font-weight: bold; }
+
+.contentWhiteMS10 { font-size: 10px; font-family: Verdana, sans-serif; color: #FFF; }
+.contentWhiteMS10 a:link, .contentWhiteMS10 a:visited, .contentWhiteMS10 a:hover, .contentWhiteMS10 a:active  { color: #FFF; font-weight: bold; }
+
+/* Headlines */
+.cHeadline1 { font: bold 24px Verdana, sans-serif; }
+.cHeadline2 { font: bold 21px Verdana, sans-serif; }
+.cHeadline3 { font: bold 16px Verdana, sans-serif; }
+.cHeadline4 { font: bold 14px Verdana, sans-serif; }
+.cHeadline5 { font: bold 12px Verdana, sans-serif; }
+
+.cHeadline1white { font: bold 24px Verdana, sans-serif; color: #FFF; }
+.cHeadline1white a:link { color: #FFF; }
+.cHeadline1white a:visited { color: #C0C0C0; }
+.cHeadline1white a:hover, .cHeadline1white a:active { color: #FFF; }
+
+.cHeadline2white { font: bold 21px Verdana, sans-serif; color: #FFF; }
+.cHeadline2white a:link { color: #FFF; }
+.cHeadline2white a:visited { color: #C0C0C0; }
+.cHeadline2white a:hover, .cHeadline2white a:active { color: #FFF; }
+
+.cHeadline3white { font: bold 16px Verdana, sans-serif; color: #FFF; }
+.cHeadline3white a:link { color: #FFF; }
+.cHeadline3white a:visited { color: #C0C0C0; }
+.cHeadline3white a:hover, .cHeadline3white a:active { color: #FFF; }
+
+.cHeadline4white { font: bold 14px Verdana, sans-serif; color: #FFF; }
+.cHeadline4white a:link { color: #FFF; }
+.cHeadline4white a:visited { color: #C0C0C0; }
+.cHeadline4white a:hover, .cHeadline4white a:active { color: #FFF; }
+
+.cHeadline5white { font: bold 12px Verdana, sans-serif; color: #FFF; }
+.cHeadline5white a:link { color: #FFF; }
+.cHeadline5white a:visited { color: #C0C0C0; }
+.cHeadline5white a:hover, .cHeadline5white a:active { color: #FFF; }
+
+/* Update */
+.update { font-size: 9px; font-family: Verdana, sans-serif; color: #000000; font-weight: bold; }

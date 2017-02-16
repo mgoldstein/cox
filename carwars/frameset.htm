@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Create Frameset Script</title>
+<script language="JavaScript" type="text/javascript">
+<!--
+var url = location.search ? unescape(location.search.substring(1)) : 'mainpage.htm';
+var html = '';
+html += '<frameset cols="200,*" border="0">';
+html += '<frame src="menu.htm" name="menu" frameborder="no" scrolling="yes" noresize="noresize" marginwidth="10" marginheight="0" id="menu" \/>';
+html += '<frame src="' + url + '" name="content" frameborder="no" noresize="noresize" marginwidth="0" marginheight="0" id="content" \/>';
+html += '<noframes><body><p>Your browser does not support frames<\/p><p><a href="menu.htm">Go to the navigation menu<\/a><\/p><p><a href="mainpage.htm">Go to the introduction page<\/a><\/p><\/body><\/noframes>';
+html += '<\/frameset>';
+-->
+</script>
+</head>
+<script language="JavaScript" type="text/javascript">
+<!--
+  document.write(html);
+-->
+</script>
+<noscript>
+<frameset cols="200,*">
+<!-- Navigation menu -->
+<frame src="menu.htm" name="menu" frameborder="no" scrolling="yes" noresize="noresize" marginwidth="10" marginheight="0" id="menu" title="Navigation menu" />
+<!-- Main content -->
+<frame src="mainpage.htm" name="content" frameborder="no" scrolling="auto" noresize="noresize" marginwidth="0" marginheight="0" id="content" title="Main content" />
+<!-- No frames -->
+<noframes>
+<body>
+<p>Your browser does not support frames</p>
+<p><a href="menu.htm">Go to the navigation menu</a></p>
+<p><a href="mainpage.htm">Go to the introduction page</a></p>
+</body>
+</noframes>
+</frameset>
+</noscript>
+</html>

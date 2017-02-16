@@ -1,0 +1,1969 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./players_files/filelist.xml">
+<title>Players Handbook</title>
+
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:variable;
+	mso-font-signature:-1 -369098753 63 0 4129023 0;}
+@font-face
+	{font-family:"\@Arial Unicode MS";
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:variable;
+	mso-font-signature:-1 -369098753 63 0 4129023 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-font-kerning:0pt;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Arial Unicode MS";}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:276570749;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1036944054 -1564071300 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:22.5pt;
+	mso-level-number-position:left;
+	margin-left:22.5pt;
+	text-indent:-.25in;
+	font-family:Symbol;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head>
+
+<body lang=EN-US style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<h1><span style='font-size:14.0pt;mso-bidi-font-size:10.0pt'>Car Wars: Chassis
+&amp; Crossbow<o:p></o:p></span></h1>
+
+<p class=MsoNormal><b><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Players
+Handbook<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+
+<IMG SRC="carwars01-300.jpg" ALT="The Favorite Toys of Men & Boys" WIDTH="300" HEIGHT="289" BORDER="2" VSPACE="4" HSPACE="4" align="right">
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Players</span></b>: </p>
+
+<p class=MsoNormal>Each player begins with $12,000 to buy vehicles and
+equipment. Players can have as many characters as they can fit into their vehicles,
+up to four characters each. Each character begins with 80 skill points. No
+character can begin with a skill above level two. Your characters may purchase
+any weapons and supplies they can afford, except for firearms, explosives, and
+Kevlar armor. </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Skills</span></b>:</p>
+
+<p class=MsoNormal><b>10/level<o:p></o:p></b></p>
+
+<p class=MsoNormal>Body Building (see optional rules below) <b><o:p></o:p></b></p>
+
+<p class=MsoNormal>Cyclist</p>
+
+<p class=MsoNormal>Driver</p>
+
+<p class=MsoNormal>Gunner</p>
+
+<p class=MsoNormal>Gunsmith (for repairing and modifying hand weapons and
+vehicle weapons)</p>
+
+<p class=MsoNormal>Handgunner (includes bows &amp; thrown weapons – delete
+Archery skill)</p>
+
+<p class=MsoNormal>Luck (each level of Luck allows you to reroll one die roll
+per adventure)</p>
+
+<p class=MsoNormal>Martial Arts (includes all melee weapons – delete Blade
+skill)</p>
+
+<p class=MsoNormal>Mechanic</p>
+
+<p class=MsoNormal>Paramedic</p>
+
+<p class=MsoNormal>Runner (Base level free)</p>
+
+<p class=MsoNormal>Trucker</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b>5/level<o:p></o:p></b></p>
+
+<p class=MsoNormal>Acrobatics (good for boarding moving vehicles)</p>
+
+<p class=MsoNormal>Area Knowledge</p>
+
+<p class=MsoNormal>Climbing</p>
+
+<p class=MsoNormal>Communications</p>
+
+<p class=MsoNormal>Computer Tech</p>
+
+<p class=MsoNormal>Explosives</p>
+
+<p class=MsoNormal>Fast-Talk</p>
+
+<p class=MsoNormal>Stealth</p>
+
+<p class=MsoNormal>Streetwise</p>
+
+<p class=MsoNormal>Survival</p>
+
+<p class=MsoNormal>Swimming</p>
+
+<p class=MsoNormal>Theft</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b>New Body Building rules</b>: The base level of
+bodybuilding adds +1 GE to the character's encumbrance limit. Level one gives the
+character +1 DP and adds 25 lbs. to the character's weight. The cycle repeats
+up to level four, so that the maximum limits for any character is GE 9, DP 5,
+and weight 200 lbs.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Another Option: The base level of bodybuilding adds ½ GE to
+the character's encumbrance limit. Level one gives the character +1 DP and adds
+25 lbs. to the character's weight. Level two adds another ½ GE to the
+character's encumbrance limit. The cycle repeats beyond that, so level three
+adds ½ GE, level four adds +1 DP and 25 lbs., and level five adds ½ GE. Using
+the new mortality rules, the maximum limits for any character is GE 8, DP 5,
+and weight 200 lbs. Otherwise, set the maximums to GE 9, DP 6, and 225 lbs.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Hand Weapons: <o:p></o:p></span></b></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ border:none;mso-border-alt:solid gray 1.5pt;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='height:14.25pt'>
+  <td width=122 valign=top style='width:91.6pt;border-top:solid gray 1.5pt;
+  border-left:solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:
+  none;padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Item<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border-top:solid gray 1.5pt;
+  border-left:none;border-bottom:solid silver .75pt;border-right:none;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>GE<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=48 valign=top style='width:.5in;border-top:solid gray 1.5pt;
+  border-left:none;border-bottom:solid silver .75pt;border-right:none;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Dam<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border-top:solid gray 1.5pt;
+  border-left:none;border-bottom:solid silver .75pt;border-right:none;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Hit#<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=55 valign=top style='width:41.2pt;border-top:solid gray 1.5pt;
+  border-left:none;border-bottom:solid silver .75pt;border-right:none;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Range</p>
+  </td>
+  <td width=47 valign=top style='width:35.05pt;border-top:solid gray 1.5pt;
+  border-left:none;border-bottom:solid silver .75pt;border-right:none;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Cost<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=59 valign=top style='width:44.05pt;border-top:solid gray 1.5pt;
+  border-left:none;border-bottom:solid silver .75pt;border-right:none;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Ammo<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border-top:solid gray 1.5pt;
+  border-left:none;border-bottom:solid silver .75pt;border-right:none;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>CPS<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=127 valign=top style='width:95.3pt;border-top:solid gray 1.5pt;
+  border-left:none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Notes<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td width=122 valign=top style='width:91.6pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>Boomerang, Metal<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1 </p>
+  </td>
+  <td width=48 valign=top style='width:.5in;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1d-3</p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>8</p>
+  </td>
+  <td width=55 valign=top style='width:41.2pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>3”</p>
+  </td>
+  <td width=47 valign=top style='width:35.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>10</p>
+  </td>
+  <td width=59 valign=top style='width:44.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>--</p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>--</p>
+  </td>
+  <td width=127 valign=top style='width:95.3pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>6” max range<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td width=122 valign=top style='width:91.6pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>Compound Bow<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>2</p>
+  </td>
+  <td width=48 valign=top style='width:.5in;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1d-3</p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>8</p>
+  </td>
+  <td width=55 valign=top style='width:41.2pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>6”</p>
+  </td>
+  <td width=47 valign=top style='width:35.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>50</p>
+  </td>
+  <td width=59 valign=top style='width:44.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1</p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>2</p>
+  </td>
+  <td width=127 valign=top style='width:95.3pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>One turn to reload</p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td width=122 valign=top style='width:91.6pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>Crossbow<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>3<span style="mso-spacerun: yes">                     
+  </span><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=48 valign=top style='width:.5in;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1d-2<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>7<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=55 valign=top style='width:41.2pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>8”</p>
+  </td>
+  <td width=47 valign=top style='width:35.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>75<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=59 valign=top style='width:44.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>2<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=127 valign=top style='width:95.3pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>Two turns to reload<span style='font-size:12.0pt;
+  mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td width=122 valign=top style='width:91.6pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>Crossbow, Pistol<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1<span style="mso-spacerun: yes">                     
+  </span><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=48 valign=top style='width:.5in;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1d-4<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>8</p>
+  </td>
+  <td width=55 valign=top style='width:41.2pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>4”</p>
+  </td>
+  <td width=47 valign=top style='width:35.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>40<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=59 valign=top style='width:44.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>2<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=127 valign=top style='width:95.3pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>Two turns to reload<span style='font-size:12.0pt;
+  mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td width=122 valign=top style='width:91.6pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>Knife, Thrown<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1</p>
+  </td>
+  <td width=48 valign=top style='width:.5in;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1d-3</p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>8</p>
+  </td>
+  <td width=55 valign=top style='width:41.2pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>2”</p>
+  </td>
+  <td width=47 valign=top style='width:35.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>50</p>
+  </td>
+  <td width=59 valign=top style='width:44.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>--</p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>--</p>
+  </td>
+  <td width=127 valign=top style='width:95.3pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>4” max range<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td width=122 valign=top style='width:91.6pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>Molotov<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1</p>
+  </td>
+  <td width=48 valign=top style='width:.5in;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1d</p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>9</p>
+  </td>
+  <td width=55 valign=top style='width:41.2pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>2”</p>
+  </td>
+  <td width=47 valign=top style='width:35.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>10</p>
+  </td>
+  <td width=59 valign=top style='width:44.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>--</p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>--</p>
+  </td>
+  <td width=127 valign=top style='width:95.3pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>5” max range<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td width=122 valign=top style='width:91.6pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>Pepper Spray<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>½</p>
+  </td>
+  <td width=48 valign=top style='width:.5in;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>--</p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>5</p>
+  </td>
+  <td width=55 valign=top style='width:41.2pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>--</p>
+  </td>
+  <td width=47 valign=top style='width:35.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>25</p>
+  </td>
+  <td width=59 valign=top style='width:44.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>5</p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1</p>
+  </td>
+  <td width=127 valign=top style='width:95.3pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1” max range<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td width=122 valign=top style='width:91.6pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>Rock, Thrown<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1</p>
+  </td>
+  <td width=48 valign=top style='width:.5in;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1d-4</p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>8</p>
+  </td>
+  <td width=55 valign=top style='width:41.2pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>2”</p>
+  </td>
+  <td width=47 valign=top style='width:35.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>--</p>
+  </td>
+  <td width=59 valign=top style='width:44.05pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>--</p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>--</p>
+  </td>
+  <td width=127 valign=top style='width:95.3pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>5” max range<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td width=122 valign=top style='width:91.6pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid gray 1.5pt;border-right:none;mso-border-top-alt:
+  solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Shuriken, 5<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=41 valign=top style='width:30.4pt;border:none;border-bottom:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>½ </p>
+  </td>
+  <td width=48 valign=top style='width:.5in;border:none;border-bottom:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1d-4</p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>8</p>
+  </td>
+  <td width=55 valign=top style='width:41.2pt;border:none;border-bottom:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>2”</p>
+  </td>
+  <td width=47 valign=top style='width:35.05pt;border:none;border-bottom:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>10</p>
+  </td>
+  <td width=59 valign=top style='width:44.05pt;border:none;border-bottom:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>--</p>
+  </td>
+  <td width=46 valign=top style='width:34.6pt;border:none;border-bottom:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>--</p>
+  </td>
+  <td width=127 valign=top style='width:95.3pt;border-top:none;border-left:
+  none;border-bottom:solid gray 1.5pt;border-right:solid gray 1.5pt;mso-border-top-alt:
+  solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>4” max range<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:22.5pt;text-indent:-.25in;mso-list:l0 level1 lfo2;
+tab-stops:list 22.5pt'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Crossbows take two turns to reload, Compound Bows take
+one turn to reload.</p>
+
+<p class=MsoNormal style='margin-left:22.5pt;text-indent:-.25in;mso-list:l0 level1 lfo2;
+tab-stops:list 22.5pt'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Bows and firearms will always do at least one DP when
+they hit.</p>
+
+<p class=MsoNormal style='margin-left:22.5pt;text-indent:-.25in;mso-list:l0 level1 lfo2;
+tab-stops:list 22.5pt'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Thrown rocks gain +1 damage for every 20 mph of
+collision speed.</p>
+
+<p class=MsoNormal style='margin-left:22.5pt;text-indent:-.25in;mso-list:l0 level1 lfo2;
+tab-stops:list 22.5pt'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Pepper Spray: A hit to the Head forces the victim to
+roll on the Tear Gas table. A hit anywhere else gives the victim a +4 to his
+roll (a result of seven or greater means no effect). Gas masks provide complete
+protection. </p>
+
+<p class=MsoNormal style='margin-left:22.5pt;text-indent:-.25in;mso-list:l0 level1 lfo2;
+tab-stops:list 22.5pt'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Molotov sets a ¾” square afire. All targets therein
+take full damage. On following turns, treat the square as a flaming oil slick.
+The fire burns out after five turns. Burn modifier 4/2.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Hand
+Weapon Accessories:<o:p></o:p></span></b></p>
+
+<p class=MsoNormal>Folding stock: $10. For pistols: +1 GE, -1 to hit, +2”
+range. For long arms: -1 GE, +1 to hit, -2” range.</p>
+
+<p class=MsoNormal>Telescopic sight (x2 range modifier when braced and
+stationary): $200. </p>
+
+<p class=MsoNormal>Bulk Ammo boxes: $50, one space, 10 lbs. Holds 12 GE worth
+of hand weapon magazines.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Melee Weapons:<span
+style="mso-spacerun: yes">  </span><o:p></o:p></span></b></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ border:none;mso-border-alt:solid gray 1.5pt;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='height:14.25pt'>
+  <td valign=top style='border-top:solid gray 1.5pt;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;padding:0in 5.4pt 0in 5.4pt;
+  height:14.25pt'>
+  <p class=MsoNormal>Item<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:solid gray 1.5pt;border-left:none;
+  border-bottom:solid silver .75pt;border-right:none;padding:0in 5.4pt 0in 5.4pt;
+  height:14.25pt'>
+  <p class=MsoNormal>GE<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:solid gray 1.5pt;border-left:none;
+  border-bottom:solid silver .75pt;border-right:none;padding:0in 5.4pt 0in 5.4pt;
+  height:14.25pt'>
+  <p class=MsoNormal>Dam<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:solid gray 1.5pt;border-left:none;
+  border-bottom:solid silver .75pt;border-right:none;padding:0in 5.4pt 0in 5.4pt;
+  height:14.25pt'>
+  <p class=MsoNormal>Hit#<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:solid gray 1.5pt;border-left:none;
+  border-bottom:solid silver .75pt;border-right:none;padding:0in 5.4pt 0in 5.4pt;
+  height:14.25pt'>
+  <p class=MsoNormal>Cost<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:solid gray 1.5pt;border-left:none;
+  border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;padding:0in 5.4pt 0in 5.4pt;
+  height:14.25pt'>
+  <p class=MsoNormal>Notes<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Axe<span style="mso-spacerun:
+  yes">                             </span></p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>3</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>+3</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>9</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>50</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Full damage to vehicles</p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Brass Knuckles<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>½</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>+1</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>6</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>10</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Chain/Whip</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>+1</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>8</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>10</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>1/2&quot; HTH Range<span style='font-size:12.0pt;
+  mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Chainsaw</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>4</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>+5</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>9</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>150</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Club, Heavy<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>2</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>+3</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>8</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>30</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Club, Light<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>+2</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>7</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>20</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Hatchet<span style="mso-spacerun:
+  yes">                             </span></p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>2</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>+2</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>9</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>25</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Full damage to vehicles</p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Knife, Small<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>½ <span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>+1<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>8<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>25<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Knife, Large<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>+2<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>8<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>50<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Spear</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>3</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>+3</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>8</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>80</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>1/2&quot; HTH Range<span style='font-size:12.0pt;
+  mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Stun gun</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>1</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>--</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>7</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:
+  14.25pt'>
+  <p class=MsoNormal>75</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>See below</p>
+  </td>
+ </tr>
+ <tr style='height:14.25pt'>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid gray 1.5pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>Sword<span style="mso-spacerun: yes">                  
+  </span></p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid gray 1.5pt;mso-border-top-alt:
+  solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>2</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid gray 1.5pt;mso-border-top-alt:
+  solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>+3</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid gray 1.5pt;mso-border-top-alt:
+  solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>7</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid gray 1.5pt;mso-border-top-alt:
+  solid silver .75pt;padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal>100</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid gray 1.5pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:14.25pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:22.5pt;text-indent:-.25in;mso-list:l0 level1 lfo2;
+tab-stops:list 22.5pt'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Use brass knuckles stats for striking with small blunt objects
+like blackjacks, rocks, grenades, pistol butts, etc. Use light club stats for
+one-handed weapons like batons, nightsticks, tonfas, nunchakus, tire irons, and
+rifle butts. Use heavy club stats for two-handed weapons like shovels, monkey
+wrenches,<span style="mso-spacerun: yes">  </span>baseball bats, staves, and
+chairs. Blunt weapons do no damage to tires.</p>
+
+<p class=MsoNormal style='margin-left:22.5pt;text-indent:-.25in;mso-list:l0 level1 lfo2;
+tab-stops:list 22.5pt'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Use small knife stats for any small cutting or stabbing
+weapon like switchblades, pocket knives, ice picks, and concealable knives. Use
+large knife stats for larger edged weapons like bayonets, meat cleavers,
+butcher knives, tantos, bowie knives, and katars. Use Sword stats for heavy but
+balanced edged weapons like machetes, sabers, rapiers, katanas, short spears,
+etc. </p>
+
+<p class=MsoNormal style='margin-left:22.5pt;text-indent:-.25in;mso-list:l0 level1 lfo2;
+tab-stops:list 22.5pt'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Use Spear stats for pikes, lances, and other long pole
+arms. When wielded by a charging cyclist, or set<span style="mso-spacerun:
+yes">  </span>by a pedestrian to receive a charge, it does 1d-1 damage for
+every 25 mph of collision speed, up to a maximum of 3d-3. The spear is
+automatically lost in the target. On a critical miss, the attacker suffers
+1d6-4 to his weapon arm per 25 mph. </p>
+
+<p class=MsoNormal style='margin-left:22.5pt;text-indent:-.25in;mso-list:l0 level1 lfo2;
+tab-stops:list 22.5pt'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Hatchet stats will work for tomahawks, claw hammers,
+crowbars, and one-handed sledges. Use Axe stats for two-handed swinging weapons
+like fire axes, pickaxes, and sledgehammers.</p>
+
+<p class=MsoNormal style='margin-left:22.5pt;text-indent:-.25in;mso-list:l0 level1 lfo2;
+tab-stops:list 22.5pt'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Chainsaw: A critical miss (natural To Hit roll of 2) causes
+a broken chain. Repairing is an easy job for a Mechanic.</p>
+
+<p class=MsoNormal style='margin-left:22.5pt;text-indent:-.25in;mso-list:l0 level1 lfo2;
+tab-stops:list 22.5pt'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Stun gun: Any hit on a pedestrian forces the victim to
+roll on the concussion grenade table. Add 2 plus the victim’s armor DP to the
+roll.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Body Armor:<o:p></o:p></span></b></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ border:none;mso-border-alt:solid gray 1.5pt;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr>
+  <td valign=top style='border-top:solid gray 1.5pt;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Item</p>
+  </td>
+  <td valign=top style='border-top:solid gray 1.5pt;border-left:none;
+  border-bottom:solid silver .75pt;border-right:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>DP</p>
+  </td>
+  <td valign=top style='border-top:solid gray 1.5pt;border-left:none;
+  border-bottom:solid silver .75pt;border-right:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>GE</p>
+  </td>
+  <td valign=top style='border-top:solid gray 1.5pt;border-left:none;
+  border-bottom:solid silver .75pt;border-right:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Cost</p>
+  </td>
+  <td valign=top style='border-top:solid gray 1.5pt;border-left:none;
+  border-bottom:solid silver .75pt;border-right:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Coverage</p>
+  </td>
+  <td valign=top style='border-top:solid gray 1.5pt;border-left:none;
+  border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Notes</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Fireproof Suit</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1*</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>0</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>500</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>All</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Gas Mask</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>0</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>60</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>--</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Helmet, Cycle </p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1*</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>0</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>50</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Head</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Leather Jacket</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1*</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>0</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>50</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Body, Arms</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid silver .75pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Leather Jacket, Spiked </p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1*</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>0</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>75</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Body, Arms</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid silver .75pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>+1 HTH damage</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border-top:none;border-left:solid gray 1.5pt;
+  border-bottom:solid gray 1.5pt;border-right:none;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Leather Pants</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid gray 1.5pt;mso-border-top-alt:
+  solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1*</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid gray 1.5pt;mso-border-top-alt:
+  solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>0</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid gray 1.5pt;mso-border-top-alt:
+  solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>75</p>
+  </td>
+  <td valign=top style='border:none;border-bottom:solid gray 1.5pt;mso-border-top-alt:
+  solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Legs</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid gray 1.5pt;
+  border-right:solid gray 1.5pt;mso-border-top-alt:solid silver .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:22.5pt;text-indent:-.25in;mso-list:l0 level1 lfo2;
+tab-stops:list 22.5pt'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Body Armor DP is not ablative.</p>
+
+<p class=MsoNormal style='margin-left:22.5pt;text-indent:-.25in;mso-list:l0 level1 lfo2;
+tab-stops:list 22.5pt'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Leather armor, Fireproof suit, and Cycle Helmet DP
+protects against melee weapons, bows, and falls only. Fireproof suit DP also
+protects against fire damage.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Equipment:<o:p></o:p></span></b></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ border:none;mso-border-alt:solid gray 1.5pt;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:solid gray 1.5pt;
+  border-left:solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:
+  none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Item <span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border-top:solid gray 1.5pt;
+  border-left:none;border-bottom:solid silver .75pt;border-right:none;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>GE <span style="mso-spacerun: yes">  </span><span
+  style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border-top:solid gray 1.5pt;
+  border-left:none;border-bottom:solid silver .75pt;border-right:none;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Cost<span style="mso-spacerun: yes">  </span><span
+  style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:solid gray 1.5pt;
+  border-left:none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Notes<span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Arrows, 5</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>½</p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>2</p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>For any bow</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Backpack</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>+5</p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>40</p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Battle Vest</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>3</p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>75</p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Holds knife, two grenades, two magazines, and a pistol.</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Binoculars</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1</p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>100</p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Crowbar</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1</p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>25</p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Treat as hatchet in HTH</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Fire Extinguisher</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>3</p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>150<span style="mso-spacerun: yes">   </span></p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Flashlight</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>½</p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>10</p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Flashlight, Heavy</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1</p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>25</p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Treat as light club in HTH</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Hand Cuffs</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>½</p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>25</p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Liquor Bottle</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1<span style="mso-spacerun: yes">     </span></p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>$10<span style="mso-spacerun: yes">  </span></p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style="mso-spacerun: yes"> </span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Medi-Kit, First Aid</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1</p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>30</p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>+0 Paramedic (-1 Paramedic without one) </p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Medi-Kit, Portable</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>3 </p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>750 </p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>+1 Paramedic </p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Mini-Mechanic</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1</p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>50</p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>-1 Mechanic (-2 w/ no tools)</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Rations (3 days)</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>½</p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>25</p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Shovel</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>3</p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>30</p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Treat as heavy club in HTH</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid silver .75pt;border-right:none;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Tool Kit</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>6</p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid silver .75pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>600<span style="mso-spacerun: yes">  </span></p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid silver .75pt;border-right:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>+0 Mechanic. 1 Space. 40 lbs. 2 DP </p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:100.1pt;border-top:none;border-left:
+  solid gray 1.5pt;border-bottom:solid gray 1.5pt;border-right:none;mso-border-top-alt:
+  solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Walkie-Talkie</p>
+  </td>
+  <td width=50 valign=top style='width:37.7pt;border:none;border-bottom:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1</p>
+  </td>
+  <td width=53 valign=top style='width:40.1pt;border:none;border-bottom:solid gray 1.5pt;
+  mso-border-top-alt:solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>250</p>
+  </td>
+  <td width=317 valign=top style='width:238.0pt;border-top:none;border-left:
+  none;border-bottom:solid gray 1.5pt;border-right:solid gray 1.5pt;mso-border-top-alt:
+  solid silver .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style="mso-spacerun: yes"> </span>Three mile range.</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style="mso-spacerun: yes"> </span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Car Designs:<o:p></o:p></span></b></p>
+
+<p class=MsoNormal>Vehicle types available to players: Cars, motorcycles,
+sidecars.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Engines</span></b> larger
+than 350ci are rare (x2 cost).</p>
+
+<p class=MsoNormal>Turbos and superchargers are rare (x2 cost).</p>
+
+<p class=MsoNormal>Turbo-superchargers and NO2 bottles are very rare (x4 cost).</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Gasoline</span></b>
+$3/gallon when available. May be rare, very rare, or worse in some areas.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Chassis</span></b>:
+Every vehicle has chassis DP equal to its total spaces (including cargo
+spaces).</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b>Drivers</b> = Two spaces. <b>Gunners</b> = One space
+only.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Rare items</span></b> (x2
+cost)</p>
+
+<p class=MsoNormal>Tripod MG, MG, PFT, SS, OJ, SD, SMG, AR, MP, Laser Scope, PR
+Tires,</p>
+
+<p class=MsoNormal>HD Fuel Tanks.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Very Rare items</span></b>
+(x4 cost)</p>
+
+<p class=MsoNormal>VMG, ATG, Tripod RR, RR, FT, RL, MD, LAW, VLAW, Bazooka, GL,
+URGL,</p>
+
+<p class=MsoNormal>Stinger, Plastique, Pintle Mount, Solid Tires, Racing Fuel
+Tanks, External Weapon Pods. </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Normal Price Weapons &amp;
+Accessories</span></b>:</p>
+
+<p class=MsoNormal>Debris Dropper, Body Blades, Roll Cage, Metal Wheelguards,
+Portable Fire Extinguisher, Radial and Steel-belted tires, HD Tires,
+Brushcutter, Articulated mount, Ring Mount, Bumper Spikes, Safety Seats,
+Sunroofs, Car Top Carrier, Fake Passengers, Long Distance Radio, Portable Shop,
+Sound System, Spoilers &amp; Airdams, Tow Bar, Trailer Hitch, Winch.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b>Articulated Mount</b>: Mounted facing the front, back or
+to one side, the articulated mount allows vehicle or hand weapons to fire into
+these arcs. It requires a gunner to sit behind the weapon and physically move
+and fire it. Only the designated gunner may fire this weapon. The gunner still
+suffers a –1 to hit penalty. Costs $500, weighs 50 lbs.,<span
+style="mso-spacerun: yes">  </span>and takes one space in addition to the
+gunner and the weapon (hand weapons in articulated mounts require no additional
+space). </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b>Ring Mount</b>: Mounted on the top of a vehicle that has
+either a sun roof or no top armor. It requires a gunner standing behind the
+weapon to move and fire it. Only the designated gunner may fire the
+ring-mounted weapon. The weapon can be fired in a 360 degree arc, but can only
+swing 90 degrees in one turn. A ring mount for a one space weapon costs $1000,
+weighs 100 lbs., and requires no space (besides the space taken up by the
+gunner). A ring mount for a two space weapon costs $1500, weighs 200 lbs., and
+requires no space.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b>Pintle Mount</b>: Mounted on the top of a vehicle that
+has either a sun roof or no top armor. It requires a gunner standing behind the
+weapon to move and fire it. Only the assigned gunner may fire the
+pintle-mounted weapon. The weapon can be fired into a 180 degree arc designated
+upon installation. A pintle mount for a one space weapon costs $600, weighs 20
+lbs., and requires no space. A pintle mount for a two space weapon costs $1200,
+weighs 40 lbs., and requires no space.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Vehicle Armor</span></b>:
+The skin of unarmored vehicles provides 1 DP protection versus hand weapons
+only. Other weapons cut right through unimpeded. </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Metal armor is available at x10 weight, x5 price of plastic
+armor. This primitive metal armor has x2 DP value versus handguns, x3 DP value
+versus bows, melee weapons, and collisions. </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Target people in a car through a window = -5. If you miss by
+two or less, then you hit the car instead.</p>
+
+</div>
+
+</body>
+
+</html>

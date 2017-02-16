@@ -1,0 +1,44 @@
+<HTML><HEAD><TITLE>Flash Plugin Checker</TITLE></HEAD>
+<BODY bgcolor="white">
+
+<!-- http://scarface.web.latimes.com:1999/calendarlive/movies/oscar/index_countdown.htm -->
+
+
+<!-- begin the OBJECT tag, which will be understood by ActiveX-capable browsers -->
+<OBJECT CLASSID="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+CODEBASE="http://active.macromedia.com/flash/cabs/swflash.cab#version=3,0,0,11"
+
+WIDTH="220" HEIGHT="110" NAME="sw" ID="sw">
+<PARAM NAME="Movie" VALUE="flash_movie.spl">
+<PARAM NAME="quality" VALUE="high">
+<PARAM NAME="Loop" VALUE="true">
+<PARAM NAME="play" VALUE="true">
+
+<!-- begin the JavaScript -->
+<SCRIPT LANGUAGE="JavaScript">
+<!-hiding contents from old browsers
+
+//If this browser understands the mimeTypes property and recognizes the MIME Type //"application/x-shockwave-flash"...
+if (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"]){
+
+   //...write out the following <EMBED> tag into the document.
+   document.write('<EMBED SRC="flash_movie.spl" WIDTH="220" HEIGHT="110" LOOP="true" QUALITY="high">');
+}
+
+//Otherwise,...
+else {
+
+   //...write out the following <IMG> tag into the document. The image need
+   //not be the same size as the Flash Player movie, but it may help you lay out the
+   /page if you can predict the size of the object reliably.
+   document.write('<IMG SRC="welcome.gif" WIDTH="220" HEIGHT="110" ALT="Non-Shockwave Welcome">');
+}
+
+//Done hiding from old browsers. -->
+</SCRIPT>
+
+<!-- Close the OBJECT tag. -->
+</OBJECT>
+</BODY>
+
+</HTML>

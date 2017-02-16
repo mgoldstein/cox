@@ -1,0 +1,150 @@
+<html><head>
+<title>Marc's Book Reviews Compiled for Printing</title>
+
+<script language="JavaScript">
+<!--
+
+var introTipText =''
+var tipText =''
+var categ1=''
+
+// generic function to initialize array with n entries
+
+function MakeArray(n) {
+	this.length = n
+	for (var i = 1; i <= n; i++) {
+		this[i] = 0
+	}
+	return this
+}
+
+
+// function for retrieving a cookie.
+function getCookie(name){
+  var cname = name + "=";
+  var dc = document.cookie;
+  if (dc.length > 0) {
+    begin = dc.indexOf(cname);
+    if (begin != -1) {
+      begin += cname.length;
+      end = dc.indexOf(";", begin);
+      if (end == -1) end = dc.length;
+        return unescape(dc.substring(begin, end));
+    }
+  }
+  return null;
+
+}
+
+// function for setting a cookie.
+function setCookie(name, value, expires, path, domain, secure) {
+  document.cookie = name + "=" + escape(value) +
+  ((expires == null) ? "" : "; expires=" + expires.toGMTString()) +
+  ((path == null) ? "" : "; path=" + path) +
+  ((domain == null) ? "" : "; domain=" + domain) +
+  ((secure == null) ? "" : "; secure");
+}
+
+// function for deleting a cookie.
+function delCookie (name,path,domain) {
+  if (getCookie(name)) {
+    document.cookie = name + "=" +
+    ((path == null) ? "" : "; path=" + path) +
+    ((domain == null) ? "" : "; domain=" + domain) +
+    "; expires=Thu, 01-Jan-70 00:00:01 GMT";
+  }
+}
+
+categ1 = getCookie("categ1")
+if (!categ1) {
+	categ1 = "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"
+}
+
+
+function getTip() {
+    question = new MakeArray(categ1.length);
+	for (var i = 0; i <= categ1.length; i++) {
+		question[i] = categ1.substring(i,i+1);
+		if (question[i] == 'y') {
+			if (i==0) {
+			tipText = "<HR width='80%' NOSHADE ALIGN=Center><CENTER><TABLE WIDTH='80%'><TR><TD ALIGN=center COLSPAN=3><FONT SIZE=+3>Destiny's Road</FONT><BR></TD></TR><TR><TD ALIGN=center COLSPAN=3><FONT SIZE=+1>Larry Niven</FONT><BR></TD></TR><TR><TD ALIGN=center COLSPAN=3>Tor Books, 351 pages<BR></TD></TR><TR><TD ALIGN=center COLSPAN=3></FONT><HR></TD></tr></TR><TR><TD ALIGN=left valign=top width=54%><FONT SIZE=+1>A review by <a href='mailto:bosco.bina1@cox.net'>Marc Goldstein</A><BR></FONT><P><P><FONT SIZE=2>In his first solo novel since concluding his epic <b><i>Known Space</i></b> series, Larry Niven takes us to planet Destiny, a long-forgotten human colony light-years from Earth. Thanks to a hostile environment and more than 300 years of isolation, the Destiny colony has devolved into a feudal society of alienated townships. The ancient technological artifacts left behind by the original colonists remind Destiny's inhabitants how far they have fallen, giving the story a strange post-apocalyptic flavor.<P>The plot follows the misadventures of prodigal son Jemmy Bloocher. Jemmy begins as an ignorant, content resident of Spiral Town, Destiny's first settlement. A few years after the founders built Spiral Town they split, leaving behind a road burned into the earth by the fusion exhaust of their landing craft, the Cavorite. Problem is, nobody knows what happened to them. All the Spiral folk do know for sure is that a few times every Destiny year, a caravan of merchants comes down the road to deliver a cargo of <I>speckles</I>, a vital mineral without which they will perish. When Jemmy slays one of the merchants in self-defense, he is forced to flee his home, and follow the road in pursuit of the Cavorite, deep into the mysteries of Destiny's origins.<P>Some critics have accused Niven of coasting; they argue he has fallen into a rut by working within the confines of his <b><i>Known Space</i></b> universe for so long. <B>Destiny's Road</B> provides a welcome relief and a great opportunity for one of science fiction's greatest imaginers of worlds to craft a whole new universe. In Niven's stories the environment often becomes a character itself (see <B>Ringworld</B>) and here Niven imagines an alien ecology with astonishingly realistic detail. The book is suffused with the sense of an old master - hungry to prove himself to a new generation - flexing muscles he'd forgotten he possessed. Niven's new found enthusiasm is infectious.<P>If you are familiar with Niven's work, you might expect a bizarre, earth-shattering revelation at the story's climax. But here Niven restrains himself and, rightly so, stays focused on Jemmy's character arc. Instead, the payoff is quietly profound. <P></TD><TD valign='top' width='44%'><TABLE CELLPADDING=5><TR><TD></TD></TR><TR><TD></TD></TR><TR><TD><!A HREF='../cov9706/droad2.gif'><IMG SRC='images/droad3.gif' hspace=5 border=0 align=right height=253 width=175 ALT='Destiny's Road'></a></TD></TR><TR><TD></TD></TR><TR><TD></TD></TR><TR><TD align=left valign='top' bgcolor='#CCFFFF'><font size='3' face='Arial, Helvetica' color='#FF0000'>Larry Niven</font><br><font size='2'>Larry Niven has authored or co-authored more than 40 novels and short story collections. His 1970 novel, <B>Ringworld</B>, won both the Hugo and Nebula awards, while his short stories have earned him four more Hugos. His collaborations with Jerry Pournelle include <B>The Mote in God's Eye</B>, an intense first-contact yarn, <B>Oath of Fealty</B>, a blistering tirade against liberal values and the #1 best-seller, <B>Footfall</B>. He resides in Tarzana, California. <p><a href='http://ibm590.aims.gov.au/~duncang/niven.html'> Larry Niven Tribute Site</A><BR><a href='http://www-bprc.mps.ohio-state.edu/cgi-bin/hpp/sfandom.html'>Larry Niven Tribute Site</A><BR><a href='http://138.7.39.10/~duncang/niven.html'> Larry Niven Tribute Site</A><BR><a href='http://www.math.washington.edu/~lking/niven.html'> Larry Niven Tribute Site</A><BR><a href='http://ibm590.aims.gov.au/~duncang/niven.html'> Larry Niven Tribute Site</A><BR></TD></TR></TABLE></TD></TR></TABLE>";
+
+			}
+
+			if (i==1) {
+
+			tipText += "<HR width='80%' NOSHADE ALIGN=Center><CENTER><TABLE WIDTH='80%'><TR><TD ALIGN=center COLSPAN=3><FONT SIZE=+3>Fortress on the Sun</FONT><BR></TD></TR><TR><TD ALIGN=center COLSPAN=3><FONT SIZE=+1>Paul Cook</FONT><BR></TD></TR><TR><TD ALIGN=center COLSPAN=3>Roc Books, 347 pages <BR> <HR></TD></TR><TR><TD valign='top' width='45%'><TABLE CELLPADDING=5 width=100%><TR><TD align='right'><!a href='../cov9708/fortlg.gif'><IMG SRC='images/fort.gif' border=0 ALIGN=Right HEIGHT=247 width=150 ALT='Fortress on the Sun'></a></TD></TR><TR><TD></TD></TR><TR><TD></TD></TR><TR><TD align='right' valign='top' bgcolor='#CCFFFF' width=100%><font size='3' face='Arial, Helvetica' color='#FF0000'>Paul Cook</font><br><font size='2'>Cook is the author of the novel, <B>Halo</B> (1986), along with such short fiction stories as 'Master of the House' (1990), 'The Character Assassin' (1991) and 'Just in Time' (1993).</TD></TR><TR><TD></TD></TR><TR><TD></TD></TR><TR><TD>&nbsp;</TD></TR></TABLE></TD><TD ALIGN=left valign=top width=45%><FONT SIZE=+1>A review by <a href='mailto:bosco.bina1@cox.net'>Marc Goldstein</A><BR></FONT><P><P><FONT SIZE=2>Aboard Sunstation Ra, a giant space station anchored to the sun and protected by powerful energy shields, a group of more than 100 prisoners harvest solar plasma for their captors. Despite having their minds wiped to erase any memory of their crimes - regressing some back to childhood - the sunstation prisoners have managed to carve out a peaceful existence during their three years of captivity. That is until a strange sleeping sickness spreads through Ra. The arrival of a new batch of prisoners complicates matters, initiating a series of events that reawaken the residents' memories and endanger their lives.<P><b>Fortress on the Sun</b> is an engaging yarn, full of mystery and suspense. Cook moves the plot along briskly, filling it with clever twists. On the down side, <b>Fortress on the Sun</b> suffers from the weakness of most plot-driven adventure stories: thin characterization. More disappointing, the novel's denouement feels hurried - Cook anti-climactically strips away the last few layers of the onion during the closing exposition of the epilogue. But while certain events stretch the limits of plausibility, <b>Fortress on the Sun</b>'s fast-moving plot and engrossing hook make for an entertaining read.<P></TD></TR></TABLE>";
+
+			}
+
+			if (i==2) {
+
+			tipText += "<HR width='80%' NOSHADE ALIGN=Center><CENTER><TABLE WIDTH='80%'><TR><TD ALIGN=center COLSPAN=3><FONT SIZE=+3>Mars Underground</FONT><BR></TD></TR><TR><TD ALIGN=center COLSPAN=3><FONT SIZE=+1>William K. Hartmann</FONT><BR></TD></TR><TR><TD ALIGN=center COLSPAN=3>Tor Books, 352 pages<BR></TD></TR><TR><TD ALIGN=center COLSPAN=3></FONT><HR></TD></tr></TR><TR><TD ALIGN=left valign=top width=54%><FONT SIZE=+1>A review by <a href='mailto:bosco.bina1@cox.net'>Marc Goldstein</A><BR></FONT><P><P><FONT SIZE=2>The year is 2031, and the colonization of Mars is in its infancy. Alwyn Stafford, renown scientist and Mars' most famous resident disappears into the vast Martian desert. Carter Jahns,  the colony's chief engineer and Stafford's closest friend, heads the investigation into his disappearance. Journalist Annie Pohaku and local artist Phillipe Brach join the search, which leads them all into the mysteries of Mars' past, and the uncertainties of its future.<P>Anyone interested in the Mars Sojourner/Pathfinder mission will find <B>Mars Underground</B> captivating. Hartmann, a real-life scientist with the Mars Global Surveyor team, describes the Martian environment with unique passion and telling detail.<P>Hartmann's passion for Mars spills over into his characters, who, each in their own way, personify the hope that Mars offers for the future of humankind. Mars pervades every facet of the characters' lives in ways both explicit and subliminal, coloring their moods and decisions.  Carter Jahns, the forward-thinking architect of the colonization effort, grasps the opportunity to completely reinvent the rules ofsociety with enthusiasm. That his idealism is often derided as na&iuml;vete doesn't dissuade him. Phillipe, the artist in residence, draws his muse from the boundless Martian frontier. Annie smashes conventional boundaries with her sexual liberation and her journalistic insistence on freedom of information.<P><B>Mars Underground</B> is an ambitious first novel. Hartman, obviously a student of science fiction, experiments with the genre, mixing in elements of romance, mystery, and political intrigue (not to mention a tribute to <i>Edgar Rice Burroughs</i>' great Martian hero, John Carter). The result somehow avoids becoming convoluted; rather, it successfully captures the complexity of the human experience juxtaposed against the Martian backdrop.<P>Stafford's disappearance leads the protagonists through the history of Mars, from humankind's first fledgling steps onto the red planet to the planet's ancient past. Uncertainty over how to handle the secrets uncovered in the investigation sparks a debate of contrasting political positions on the future of humankind on Mars -- and by implication, our future in general. Hartman neatly stitches together the threads of our emotional connection to Mars, its mysterious past, and the hope its frontier offers for the future. When we look at Mars, we see ourselves.<P></TD><TD valign='top' width='44%'><TABLE CELLPADDING=5><TR><TD></TD></TR><TR><TD></TD></TR><TR><TD><IMG SRC='images/marslg.gif' BORDER=0 WIDTH=150 HEIGHT=234 ALT='Mars Underground'></TD></TR><TR><TD></TD></TR><TR><TD></TD></TR><TR><TD align=left valign='top' bgcolor='#CCFFFF'><font size='3' face='Arial, Helvetica' color='#FF0000'>William K. Hartmann</font><br><font size='2'>Dr. William K. Hartmann received a Hugo nomination for his non-fiction book <B>The Grand Tour</B>, with Ron Miller. Dr. Hartmann has written several books on space, astronomy, and space art, published by Workman (New York). <B>Mars Underground</B>, published by Tor (New York) is his first novel.<p>Dr. Hartmann is also known for his planetary research, he is a member of the Mars Global Surveyor science team and he is well-known as an astronomical artist. Asteroid 3341 was named for him in recognition of his work.</TD></TR></TABLE></TD></TR></TABLE>";
+
+			}
+
+			if (i==3) {
+
+			tipText += "<HR width=80% NOSHADE ALIGN=Center><CENTER><TABLE Width=80%><TR><TD ALIGN=center COLSPAN=3><FONT SIZE=+3>Rogue Star</FONT><BR></TD></TR><TR><TD ALIGN=center COLSPAN=3><FONT SIZE=+1>Michael Flynn</FONT><BR></TD></TR><TR><TD ALIGN=center COLSPAN=3>Tor Books, 446 pages <BR> <HR></TD></TR><TR><TD valign=top width=39%><TABLE CELLPADDING=5><TR><TD></TD></TR><TR><TD><!A HREF='../cov9803/rstar2.jpg'><IMG SRC='images/rogue.gif' ALIGN='Right' WIDTH=150 HEIGHT=220 BORDER=0 ALT='Rogue Star'></A></TD></TR><TR><TD></TD></TR><TR><TD align=left valign=top bgcolor='#CCFFFF'><font size=3 face='Arial, Helvetica' color='#FF0000'>Michael Flynn</font><br><font size=2>Michael Flynn lives in Edison, New Jersey. He is the author of <B>The Nanotech Chronicles</B>,<B>In the Country of the Blind</B> and<a href='http://www.panix.com/~dgh/Flynn_FIRESTAR.html'><B>Firestar</B></a>.<p><a href='http://www.sfsite.com/isfdb-bin/exact_author.cgi?Michael_Flynn'>ISFDB Bibliography</a><br></TD></TR><TR><TD></TD></TR><TR><TD></TD></TR><TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TD ALIGN=left valign=top width=59%><FONT SIZE=+1>A review by <a href='mailto:bosco.bina1@cox.net'>Marc Goldstein</A><BR></FONT><P><P><FONT SIZE=2>With no less than two Hollywood blockbusters coming out this summer dealing with the subject of giant asteroids colliding with earth, Michael Flynn's <B>Rogue Star</B> finds itself in ideal position to ride the asteroid <I>zeitgeist</I>. In fairness to the author, the danger of asteroid strikes is only one of the themes he takes on in this dense novel of interweaving story threads.</P><P>A sequel to the critically-praised <B>Firestar</B>, <B>Rogue Star</B> features returning characters from the earlier novel including powerful, progressive-minded corporate chairman Mareisa Van Huyten. Van Huyten suffers from recurring nightmares of gigantic meteorites smashing into earth. To combat her fears, she covertly initiates a massive project to surround earth with a ring of satelites armed with lasers powerful enough to vaporize any incoming object. Only Van Huyten and her inner circle are aware of the satelites' true purpose, but the President of the United States recognizes their potential. He threatens to shutdown the project unless Van Huyten agrees to use the orbital weapons to help stop a politically embarassing war in the Balkans by bombarding ground targets.</P><P>While Van Huyten contemplates the President's 'proposal', she must also fend off attacks from a variety of enemies: Ed Bullock, a rival tycoon with a reactionary political agenda, Phil Albright, the leader of liberal political action group called The People's Crusade, and Roberta 'Styx' Carson, Albright's girl Friday and lover. An award-winning poet who received a scholarship under a Van Huyten mentorship program, Styx resents her former benefactor, who she sees as a symbol of corporate manipulation and avarice.</P><P>Meanwhile, the world watches the progress of the Far Trip mission, a manned space expedition to a distant asteroid. Enigmatic clues discovered on the asteroid's surface may provide evidence justifying Van Huyten's nightmares.</P<P>Another subplot follows the story of blue-collar everyman Eddie 'Flaco' Mercado. Flaco leaves his pregnant wife behind on earth to become an apprentice rigger working in orbit, assembling Van Huyten's space station. Honest, honorable Flaco grows suspicious when a section of the station is sealed off by mysterious military men and struggles with his conscience over whether or not to blow the whistle.</P><P>In <B>Rogue Star</B> Flynn imagines a 21st Century that is neither uptopic nor dystopic, but on the verge of tumbling one way or the other. Flynn weaves his multiple story threads with an eye toward the behind-the-scene machinations of politicians and big businessmen striving to seize control of mankind's destiny. Flynn has an ear for the jargon-heavy speech that becomes increasingly natural as technology permeates our everyday lives. His rich language evokes the look, the sound, and the feel of a future both recognizable and alien with artless realism (though some readers may find it inaccessible at first.)</P><P>There's not much real political debate going on as the characters fall too neatly into stereotypes: Van Huyten is a progressive visionary; Bullock is reactionary to the point of fascism; the People's Crusade activists are naive liberals; and the President is a bipartisan opportunist. However, moral compromise touches all the characters equally and Flynn clearly sympathizes with each of his characters, no matter how corrupt their motives appear on the surface.</P><P>Styx emerges as the novel's most complex character. Her personal vendetta against Van Huyten ignites some of the story's most emotionally charged exchanges. She is a bitter, angry young woman, obsessed with revenge, yet beneath her defensive layer of hostility stirs the latent desire to escape out from under the black cloud of her rage. The 'rogue star' of the title refers literally to the giant asteroids of Van Huyten's nightmares, but for Styx, the poet, rogue star is a metaphor for those people and events which impact our lives and change us forever.</P><P>Apparently planned as the middle chapter of a trilogy, <B>Rogue Star</B> consequently leaves many of the issues it broaches unresolved. Nevertheless, Flynn's vision is powerful because it captures the paradox of anxiety and anticipation we feel toward the future. All the players in the novel's high-stakes game of conspiracy are driven by an almost hysterical sense of urgency, for the prize is control of the future itself. And Flynn's future is vast ocean of limitless horizons and claustrophobic fears, simultaneously awesome and overwhelming, teetering on the precipice.</P></TD></TR></TABLE>";
+
+			}
+
+			if (i==4) {
+
+			tipText += "<HR width=80% NOSHADE ALIGN=Center><CENTER><TABLE width=80%><TBODY><TR><TD align=middle colSpan=3><FONT size=+3>Homebody</FONT><BR></TD></TR><TR><TD align=middle colSpan=3><FONT size=+1>Orson Scott Card</FONT><BR></TD></TR><TR><TD align=middle colSpan=3>HarperPrism Books, 291 pages<BR><HR></TD></TR><TR><TD vAlign=top width=34%><TABLE cellPadding=5><TBODY><TR><TD></TD></TR><TR><TD><A href=http://www.sfsite.com/gif/9804/hbody2.gif><IMG align=right alt=Homebody border=0 height=240 src=images/body.gif width=150></A> </TD></TR><TR><TD<TD align=left bgColor=#ccffff vAlign=top><FONT color=#ff0000 face=Arial, size=3 Helvetica>Orson Scott Card</FONT><BR><FONT size=2>Born in Richland, WA, Orson Scott Card grew up in California, Arizona, and Utah. He lived in Brazil for two years as an unpaid Mormon Church missionary. He received degrees from Brigham Young University and the University of Utah. He lives in Greensboro, NC with his wife, Kristine, and five children.<P>In an unprecedented fashion, Card won the Hugo and Nebula awards for best novel two years in a row for <B>Ender's Game</B> and its sequel, <B>Speaker for the Dead</B>, in 1986 and 1987. <P><A href=http://www.hatrack.com/>Orson Scott Card Website</A><BR><A href=http://www.sfsite.com/isfdb-bin/exact_author.cgi?Orson_Scott_Card>ISFDB Bibliography</A><BR><A href=http://www.libby.org/~cjolson/orson.html>Orson Scott Card Tribute Site</A><BR><A href=http://haw.usfca.edu/~khyron/card/>Orson Scott Card Tribute Site</A><BR><A href=http://www.halcyon.com/cjolson/osc.html>Orson Scott Card Tribute Site</A><BR></P></FONT></TD></TR></TBODY></TABLE></TD><TD align=left vAlign=top width=64%><FONT size=+1>A review by <A href=mailto:bosco.bina1@cox.net>Marc Goldstein</A><BR></FONT><P><P><FONT size=2>Call it a ghost story or a gothic romance, one thing is certain about Orson Scott Card's novel, <B>Homebody</B>: it's not science fiction. One of the most celebrated sf authors of the last twenty years, Card has rarely written outside the genre. But his passion for characterization and spirituality make him exceptional in a genre too often obsessed with high-concept plots and technological gimmickry. He is, perhaps, better equipped than most sf writers are to be able to stray from its parameters.<P><B>Homebody</B> introduces us to Don Lark. Despite his mellifluous name, Lark carries a terrible burden. A few years back, his alcoholic ex-wife killed herself and their baby daughter in a car crash. By that time the legal fees from their bitter custody battle had already bankrupted his construction company and left him broke. Overwhelmed with grief and rage at the loss of his daughter, he retreats from the world. When he resurfaces, Lark finds a new way to make a living: he buys cheap run-down houses, fixes them up and sells them for a profit.<P>This lonely nomadic existence seems to suit Lark just fine until he runs into the Bellamy house, an old southern mansion with a past even more tragic than his own. Soon after Lark takes ownership of the Bellamy house, his solitary lifestyle begins to change. He strikes up a romance with real estate agent Cindy Claybourne. He makes friends with his next-door neighbors, a trio of elderly southern matrons. And when he discovers Sylvie, a homeless waif squatting in the house, he allows her to stay while he finishes the renovation.<P>As Lark continues his work, he begins uncovering clues to the mystery of the house's dark past. What is the secret of the prohibition-age rumrunner's tunnel beneath the basement? When he probes deeper into the puzzle, Sylvie and ladies next-door begin to behave strangely. Who is it that Sylvie speaks to when she is alone? Why do his elderly neighbors implore him to cease his renovation work and tear the house down? Even as forces conspire against him, Lark drives on. His quest to exorcise the ghosts that haunt the Bellamy house paralleling his desire to face his own personal demons and rebuild his life.<P>Despite the absence of sf conventions, <B>Homebody</B> deals with typical Card themes of family, spirituality, loss, and salvation. Lark is an archetypal Card protagonist: a decent, honest, compassionate man hanged by fate, and struggling to reclaim the peace of a forgotten past. Card's interest in redemption themes sometimes causes his stories to veer toward sentimentality. If that's a problem for you, then <B>Homebody</B>'s probably not your book. While Lark's suffering is real and heart wrenching, the novel offers perhaps the least ambivalent conclusion in Card's oeuvre -- some may find it a bit too rosy.<P>Still, Card's prodigious gifts bubble to the surface. He effortlessly captures the breezy small-town atmosphere of his native Greenboro, and juxtaposes it effectively against the creepy claustrophobia of the Bellamy house. The narrative rushes along breathlessly as Lark peels back the layersconcealing the house's tragic secrets. Card skillfully builds the paranoia and suspense, cranking it up to fever pitch during the breathless finalé. Lark emerges as a complex but always sympathetic protagonist. You can't help but be swept up in the scope of his grief and the exhilaration of his spiritual rebirth.</P></TD></TR></TABLE>";
+
+			}
+
+
+			if (i==5) {
+
+			tipText += "<HR width=80% NOSHADE ALIGN=Center><TABLE width=80%><TBODY><TR><TD align=middle colSpan=3><FONT size=+3>The Official Godzilla Compendium</FONT><BR></TD></TR><TR><TD align=middle colSpan=3><FONT size=+1>J.D. Lees and Marc Cerasini</FONT><BR></TD></TR><TR><TD align=middle colSpan=3>Random House, 144 pages<BR><HR></TD></TR><TR><TD vAlign=top width=44%><TABLE cellPadding=5><TBODY><TR><TD></TD></TR><TR><TD><A href=http://www.sfsite.com/gif/9805/godz2.gif><IMG align=right alt=The Official Godzilla Compendium border=0 height=207 src=images/god.gif width=150></A></TD></TR><TR><TD></TD></TR><TR><TD align=left bgColor=#ccffff vAlign=top><FONT color=#ff0000 face=Arial, Helvetica size=3>J.D. Lees</FONT><BR><FONT size=2>J.D. Lees, a teacher of high school biology and math, has visited Japan four times. He lived in Tokyo for a year, teaching English by day and attending monthly all-night Godzilla movie marathons at the Asakusa Toho theater. Lees started a small photocopied fanzine called <I>G-FAN</I> which quickly grew into a bimonthly 68-page glossy-cover periodical with international subscribers and retail distribution throughout North America. He currently resides in Canada.<P><FONT color=#ff0000 face=Arial, Helvetica size=3>Marc Cerasini</FONT><BR><FONT size=2>Marc Cerasini's first book was a literary study of Robert E. Howard, the creator of <B>Conan</B>. He worked for filmmaker George Romero, appearing in the horror classic, <I>Dawn of the Dead</I>, as a zombie. His other books include <B>The Tom Clancy Companion</B> with Tom Clancy, Larry Bond and Martin H. Greenburg; the <I>New York Times</I> bestseller, <B>O.J. Simpson: American Hero, American Tragedy</B>; novelizations of <B>Ace Ventura, Pet Detective</B> and <B>Baywatch</B> adventures. A native of Pennsylvania, he now makes his home in New York City.<P><A href=http://www.sfsite.com/isfdb-bin/exact_author.cgi?Marc_Cerasini>ISFDB Bibliography</A><BR><A href=http://www.randomhouse.com/lurkerfiles/releases/godzilla/>Random House: Godzilla 2000</A><BR><A href=http://zipmall.com/wofmag/on-exc.htm>Marc Cerasini's Godzilla column</A><BR></P></FONT></FONT></TD></TR></TBODY></TABLE></TD><TD align=left vAlign=top width=54%><FONT size=+1>A review by <A href=mailto:bosco.bina1@cox.net>Marc Goldstein</A><BR></FONT><P><P><FONT size=2>I confess, I caught my first Godzilla movie at age fiveand have been a fan of the big guy ever since. I cheered when the MTV Movie Awards gave him its Lifetime Achievement Award a couple years back, and I'm eagerly anticipating <I>Independence Day</I> creators Dean Devlin and Roland Emmerich's blockbuster Hollywood remake, set to stomp box office records this summer. In the marketing wake of <I>Godzilla</I>, comes <B>The Official Godzilla Compendium</B>, the complete guide to all 22 of Godzilla's Japanese Toho Studio-produced features.<P>The authors start things off on the right foot by acknowledging the cheesiness of the special effects and the scientific implausibility of the monsters, then rightly shift the focus to the campy fun and exciting action Godzilla's movies offer.<P>Filling the book with trivia that will appeal to both serious scholars and neophytes alike, the authors take particular glee in busting a few pet-peeve misconceptions about the big guy. His skin is gray, not green, they assert with comic exasperation. They also expose the long-standing myth that Toho filmed two different endings for 1962's <I>Godzilla v. King Kong</I>, one where Godzilla wins for the Japanese audience and one where Kong wins for the Americans. It turns out the film has the same ending no matter which side of the Pacific you see it on.<P>The compendium's largest chapter compiles a list of all 22 of Godzilla's films, each complete with a plot synopsis and production notes. Given the comparative slenderness of the volume -- just 144 pages -- the production notes are brief but still full of interesting detail. The film critiques are often limited to just a sentence or two and err on the side of towing the company line. With 22 films under the big guy's belt, it's only natural that a few of them are stinkers. Uninitiated fans may have found something as simple as a top-ten list of the best films a useful primer. Fortunately, it only takes a little reading between the lines to tell which films are being damned with faint praise.<P>The chapter cataloging all the monsters that populate Godzilla's universe is another good one. Each monster's entry contains its statistical measurements and portrait, as well as its film appearances, win-loss record, special powers, and a capsule biography describing its origin and accomplishments.<P><B>The Compendium</B> is especially useful for making sense out of the tangled briar that multiple directors, screenwriters, and translations have made out of Godzilla's mythology. Here, the authors do good work pointing out the intentional connections and accidental contradictions with equal relish. They also touch on Godzilla's other incarnations in Dark Horse's comic book series and Random House's line of children's and  young-adult books.<P>The book has an appealing, professional layout and is chock full of artwork, including a few glossy pages with full-color photos of original movie posters and some choice production stills. As an introduction to Godzilla's universe and an overview of his forty-plus years as a movie star and cultural icon, <B>The Official Godzilla Compendium</B> is well worth the investment.<P></TD></TR></TABLE>";
+			}
+		}
+	}
+}
+
+if (categ1=='nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn') {
+
+	introTipText = "<FONT SIZE='+1' FACE='Arial'>You have not selected any tips for your print list. Use the check box found at the bottom of each tip to specify those you want to print.</FONT>"
+
+} else {
+
+	introTipText = "<FONT SIZE='+1' FACE='Arial'>Here's all the book reviews that you have selected, compiled onto one easy-to-print page:</FONT><p>"
+
+}
+
+if (categ1=='nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn') {
+
+	closeTipText = "&nbsp;"
+
+} else {
+
+	closeTipText = "<center><i>Copyright © 1998 by <a href='mailto:bosco.bina1@cox.net'>Marc Goldstein</A></i></center><P>Marc edits the SF Site's <A HREF='http://www.sfsite.com/depts/rpg01.htm'>Role Playing Game Department</A>. He lives in Santa Ana, California with his wife, Sabrina, and their cat, Onion."
+
+}
+
+getTip()
+
+//-->
+</script></head><body bgcolor="#ffffff" text="#000000">
+
+
+<blockquote>
+
+<script language="JavaScript">
+<!--
+
+document.write(introTipText);
+document.write(tipText);
+document.write(closeTipText);
+
+//-->
+</script>
+
+</blockquote>
+
+<BR><BR>
+
+</body></html>
+

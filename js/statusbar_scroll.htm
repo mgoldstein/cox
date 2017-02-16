@@ -1,0 +1,51 @@
+
+<HTML><HEAD>
+<TITLE>Document Title</TITLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+
+function scrollit(seed) {
+var m1  = "Welcome to JavaScript 101  ";
+var m2  = "..... Most people find this ";
+var m3  = "status bar scroll annoying... ";
+var m4  = "";
+var msg=m1+m2+m3+m4;
+var out = " ";
+var c = 1;
+if (seed > 100) {
+seed--;
+cmd="scrollit("+seed+")";
+timerTwo=window.setTimeout(cmd,100);
+}
+else if (seed <= 100 && seed > 0) {
+for (c=0 ; c < seed ; c++) {
+out+=" ";
+}
+out+=msg;
+seed--;
+window.status=out;
+cmd="scrollit("+seed+")";
+timerTwo=window.setTimeout(cmd,100);
+}
+else if (seed <= 0) {
+if (-seed < msg.length) {
+out+=msg.substring(-seed,msg.length);
+seed--;
+window.status=out;
+cmd="scrollit("+seed+")";
+timerTwo=window.setTimeout(cmd,100);
+}
+else {
+window.status=" ";
+timerTwo=window.setTimeout("scrollit(100)",75);
+      }
+   }
+}
+// End -->
+</SCRIPT>
+<link rel="stylesheet" href="http://members.cox.net/bosco.bina1/stylesheet/bosco.css" type="text/css">
+</HEAD>
+<BODY onLoad="scrollit(100)">
+<CENTER><FONT SIZE="+3">JavaScript: Statusbar Scroll</FONT></CENTER>
+</BODY></HTML>
